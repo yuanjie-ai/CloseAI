@@ -1,6 +1,6 @@
 
 
-![image](https://img.shields.io/pypi/v/openai to closeai.svg) ![image](https://img.shields.io/travis/yuanjie-ai/openai to closeai.svg) ![image](https://readthedocs.org/projects/openai to closeai/badge/?version=latest)
+![image](https://img.shields.io/pypi/v/CloseAI.svg) ![image](https://img.shields.io/travis/yuanjie-ai/CloseAI.svg) ![image](https://readthedocs.org/projects/CloseAI/badge/?version=latest)
 
 
 
@@ -9,14 +9,14 @@
 ---
 # Install
 ```python
-pip install -U openai to closeai
+pip install -U CloseAI
 ```
 
-# [Docs](https://jie-yuan.github.io/openai to closeai/)
+# [Docs](https://jie-yuan.github.io/CloseAI/)
 
 # Usages
 ```
-import openai to closeai
+import CloseAI
 ```
 
 ---

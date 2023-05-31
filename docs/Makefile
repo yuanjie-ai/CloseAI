@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = openai to closeai
+SPHINXPROJ    = CloseAI
 SOURCEDIR     = .
 BUILDDIR      = _build
 

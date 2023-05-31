@@ -3,14 +3,14 @@ CloseAI
 =======
 
 
-.. image:: https://img.shields.io/pypi/v/openai to closeai.svg
-        :target: https://pypi.python.org/pypi/openai to closeai
+.. image:: https://img.shields.io/pypi/v/CloseAI.svg
+        :target: https://pypi.python.org/pypi/CloseAI
 
-.. image:: https://img.shields.io/travis/yuanjie-ai/openai to closeai.svg
-        :target: https://travis-ci.com/yuanjie-ai/openai to closeai
+.. image:: https://img.shields.io/travis/yuanjie-ai/CloseAI.svg
+        :target: https://travis-ci.com/yuanjie-ai/CloseAI
 
-.. image:: https://readthedocs.org/projects/openai to closeai/badge/?version=latest
-        :target: https://openai to closeai.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/CloseAI/badge/?version=latest
+        :target: https://CloseAI.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
@@ -20,7 +20,7 @@ closeai
 
 
 * Free software: MIT license
-* Documentation: https://openai to closeai.readthedocs.io.
+* Documentation: https://CloseAI.readthedocs.io.
 
 
 Features

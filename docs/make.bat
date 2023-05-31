@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=openai to closeai
+set SPHINXPROJ=CloseAI
 
 if "%1" == "" goto help
 

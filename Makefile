@@ -48,7 +48,7 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with flake8
-	flake8 openai to closeai tests
+	flake8 CloseAI tests
 
 test: ## run tests quickly with the default Python
 	python setup.py test
@@ -57,15 +57,15 @@ test-all: ## run tests on every Python version with tox
 	tox
 
 coverage: ## check code coverage quickly with the default Python
-	coverage run --source openai to closeai setup.py test
+	coverage run --source CloseAI setup.py test
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
 docs: ## generate Sphinx HTML documentation, including API docs
-	rm -f docs/openai to closeai.rst
+	rm -f docs/CloseAI.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ openai to closeai
+	sphinx-apidoc -o docs/ CloseAI
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html

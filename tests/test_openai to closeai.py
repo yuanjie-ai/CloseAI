@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 
-"""Tests for `openai to closeai` package."""
+"""Tests for `CloseAI` package."""
 
 
 import unittest
 from click.testing import CliRunner
 
-from openai to closeai import openai to closeai
-from openai to closeai import cli
+from CloseAI import CloseAI
+from CloseAI import cli
 
 
-class TestOpenai To Closeai(unittest.TestCase):
-    """Tests for `openai to closeai` package."""
+class TestCloseAI(unittest.TestCase):
+    """Tests for `CloseAI` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""
@@ -27,7 +27,7 @@ class TestOpenai To Closeai(unittest.TestCase):
         runner = CliRunner()
         result = runner.invoke(cli.main)
         assert result.exit_code == 0
-        assert 'openai to closeai.cli.main' in result.output
+        assert 'CloseAI.cli.main' in result.output
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output

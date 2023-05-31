@@ -3,7 +3,7 @@
 """The setup script."""
 import time
 from setuptools import setup, find_packages
-# from openai to closeai import __version__
+# from CloseAI import __version__
 
 version = time.strftime("%Y.%m.%d.%H.%M.%S", time.localtime())
 
@@ -33,7 +33,7 @@ setup(
     description="closeai",
     entry_points={
         'console_scripts': [
-            'openai to closeai=openai to closeai.clis.cli:cli'
+            'CloseAI=CloseAI.clis.cli:cli'
         ],
     },
     install_requires=requirements,
@@ -41,12 +41,12 @@ setup(
     long_description=readme + '\n\n' + history,
     long_description_content_type="text/markdown",
     include_package_data=True,
-    keywords='openai to closeai',
-    name='openai to closeai',
-    packages=find_packages(include=['openai to closeai', 'openai to closeai.*']),
+    keywords='CloseAI',
+    name='CloseAI',
+    packages=find_packages(include=['CloseAI', 'CloseAI.*']),
 
     test_suite='tests',
-    url='https://github.com/yuanjie-ai/openai to closeai',
+    url='https://github.com/yuanjie-ai/CloseAI',
     version=version, # '0.0.0',
     zip_safe=False,
 )

@@ -13,7 +13,7 @@ import typer
 
 from meutils.pipe import *
 
-cli = typer.Typer(name="openai to closeai CLI")
+cli = typer.Typer(name="CloseAI CLI")
 
 
 @cli.command(help="help")  # help会覆盖docstring

@@ -1,0 +1,37 @@
+=======
+CloseAI
+=======
+
+
+.. image:: https://img.shields.io/pypi/v/openai to closeai.svg
+        :target: https://pypi.python.org/pypi/openai to closeai
+
+.. image:: https://img.shields.io/travis/yuanjie-ai/openai to closeai.svg
+        :target: https://travis-ci.com/yuanjie-ai/openai to closeai
+
+.. image:: https://readthedocs.org/projects/openai to closeai/badge/?version=latest
+        :target: https://openai to closeai.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+closeai
+
+
+* Free software: MIT license
+* Documentation: https://openai to closeai.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
